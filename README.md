@@ -4,12 +4,5 @@ This repository refers to https://github.com/giandonatoinverso/wls-backend-serve
 You can use the example docker compose file that creates the complete stack
 
 ```
-git clone <this_repository>
 docker compose build --no-cache && docker compose -p wslStack up -d
-```
-
-# Development
-
-```
-task publish-docker
 ```
